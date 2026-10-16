@@ -14,10 +14,20 @@ print("\n")
 
 resultado_vertical = pd.concat([df1, df2])
 
-print(resultado_vertical)
+#print(resultado_vertical)
 
 
 print("\n")
+
+
+
+
+
+
+
+
+
+
 
 df1_lucroLiquido = (df1["lucro"] - df1["salario"]).rename("lucroLiquido")
 df2_lucroLiquido = (df2["lucro"] - df2["salario"]).rename("lucroLiquido")

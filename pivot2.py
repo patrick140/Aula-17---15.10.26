@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\patrick.araujo\Documents\Aulas\Analista de dados\funcionarios (1).csv")
+df = pd.read_csv(r"C:\Users\patrick.loureiro\Documents\Aulas\funcionarios.csv")
 
 
 print(df)

@@ -19,15 +19,19 @@ df_notas = pd.DataFrame({
 
 resultado_vertical = pd.concat([df1, df2])
 
-print(resultado_vertical)
+#print(resultado_vertical)
 
 print("\n")
 
 resultado_horizontal = pd.concat([df1, df_notas], axis=1)
 
-print(resultado_horizontal)
+#print(resultado_horizontal)
 
 print("\n")
+
+
+
+
 
 vendas = pd.DataFrame({
     'id_cliente': [1, 2, 3, 4],
